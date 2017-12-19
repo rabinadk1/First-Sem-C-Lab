@@ -9,6 +9,4 @@ int main()
 	printf("X\ty\tz=\t|%-15.2f|%-15.2f|%-10.2f\n",x,y,z);
 	printf("A\tB\tC=\t|%-15.2f|%-15.2f|%-10.2f\n",A,B,C);
 	return 0;
-
-
 }

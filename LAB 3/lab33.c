@@ -8,17 +8,17 @@
 
 int main()
 {
-    int a,b;
-    float c;
-    a=8,b=4;
-    c=PI*mult(a,b);
-    printf("PI*mult(%d,%d) = %f\n",a,b,c);
-    c=PI*sum(a,b);
-    printf("PI*sum(%d,%d) = %f\n",a,b,c);
-    c=PI*sub(a,b);
-    printf("PI*sub(%d,%d) = %f\n",a,b,c);
-    c=PI*div(a,b);
-    printf("PI*div(%d,%d) = %f\n",a,b,c);
-    return 0;
+	int a,b;
+	float c;
+	a=8,b=4;
+	c=PI*mult(a,b);
+	printf("PI*mult(%d,%d) = %f\n",a,b,c);
+	c=PI*sum(a,b);
+	printf("PI*sum(%d,%d) = %f\n",a,b,c);
+	c=PI*sub(a,b);
+	printf("PI*sub(%d,%d) = %f\n",a,b,c);
+	c=PI*div(a,b);
+	printf("PI*div(%d,%d) = %f\n",a,b,c);
+	return 0;
 
 }

@@ -12,6 +12,8 @@ printf("\nEnter name ") ;
 scanf("%s",name); //will only take one word as input
 printf("%s",name);
 
+getchar();
+
 //differenece between getch(), getche() and getchar()
 char ch ;
 printf ("\nPress any key to continue") ;
@@ -24,6 +26,6 @@ getchar() ; // will echo character, must be followed by enter key
 
 //difference between puts() and printf()
 puts(nam); //simpler syntax and have to define the variable type in syntax
-printf("\n%s",nam);
+printf("\n%s",name);
 return 0;
 }
