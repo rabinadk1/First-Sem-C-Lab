@@ -7,10 +7,10 @@ int main() {
 	la=tolower(a);
 	//using if else statement
 	printf("\nUsing If Else statements:\n");
-	if (a=='a'||a=='e'||a=='i'||a=='o'||a=='u')
-	printf("%c is a vowel\n",a);
+	if (la=='a'||la=='e'||la=='i'||la=='o'||la=='u')
+		printf("%c is a vowel\n",a);
 	else
-	printf("%c is a consonant\n",a);
+		printf("%c is a consonant\n",a);
 	//using switch statement
 	printf("\nUsing Switch statement:\n");
 	switch(la) {

@@ -12,7 +12,7 @@ printf("\nEnter name ") ;
 scanf("%s",name); //will only take one word as input
 printf("%s",name);
 
-getchar();
+getchar();//to make another getchar() work
 
 //differenece between getch(), getche() and getchar()
 char ch ;

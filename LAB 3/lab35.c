@@ -7,11 +7,11 @@ int main() {
 	scanf("%c", &ch);
 
 	if(ch >= 48 && ch <= 57)
-		printf("'%c' is number.\n", ch);
+		printf("'%c' is a number.\n", ch);
 	else if((ch >= 97 && ch <= 122) || (ch >= 65 && ch <= 90))
-		printf("'%c' is alphabet.\n", ch);
+		printf("%c is an alphabet.\n", ch);
 	else
-		printf("'%c' is special character.\n\n", ch);
+		printf("%c is a special character.\n\n", ch);
 
 	(isalnum(ch))?printf( "%c is an alphanumeric character.\n", ch ):printf( "%c is NOT an alphanumeric character.\n", ch );
 
@@ -25,7 +25,7 @@ int main() {
 
 	(isupper(ch))?printf( "%c is an uppercase character.\n", ch ):printf( "%c is NOT an uppercase character.\n", ch );
 
-	(islower(ch))?printf( "%c is an lowercase character.\n", ch ):printf( "%c is NOT a lowercase character.n", ch );
+	(islower(ch))?printf( "%c is a lowercase character.\n", ch ):printf( "%c is NOT a lowercase character.n", ch );
 
 	(isxdigit(ch))?printf( "%c is a hexadecimal character.\n", ch ):printf( "%c is NOT a hexadecimal character.\n", ch );
 
