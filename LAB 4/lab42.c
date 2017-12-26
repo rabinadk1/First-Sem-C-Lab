@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main() {
 	char a,la;
-	printf("Input the alphabet: ");
+	printf("Input a alphabet: ");
 	scanf("%c",&a);
 	la=tolower(a);
 	//using if else statement

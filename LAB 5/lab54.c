@@ -2,7 +2,7 @@
 int main() {
 	int a=1,b;
 	while (a<=7) {
-		int b=1;
+		b=1;
 		while (b<=a) {
 			printf("*");
 			b++;

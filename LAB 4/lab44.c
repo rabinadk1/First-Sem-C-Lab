@@ -5,12 +5,12 @@ int main() {
 	printf("Input a number: ");
 	scanf("%d",&num);
 	if (num%5)
-		printf("%d is not divisible by 5.",num);
+		printf("%d is not divisible by 5.\n",num);
 	else
-		printf("%d is not divisible by 5.",num);
-	if ((num%7==0) && (num%11!=0))
-		printf("%d is divisible by 5 and 7 but not by 11.",num);
+		printf("%d is divisible by 5.\n",num);
+	if (num%7==0 && num%11!=0)
+		printf("%d is divisible by 7 but not by 11.",num);
 	else
-		printf("%d is divisible by 5 but doesn't satisfy the later condition .",num);
+		printf("%d isn't divisible by 7 but not by eleven.",num);
 	return 0;
 }
