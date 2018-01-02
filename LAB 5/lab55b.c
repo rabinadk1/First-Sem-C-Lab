@@ -1,14 +1,10 @@
 #include <stdio.h>
 int main() {
-	int i=1,j;
-	while (i<=5) {
-		j=1;
-		while (j<=i) {
-		printf("%d\t",j*j);
-		j++;
-		}
+	int i,j;
+	for (i=1;i<=5;i++) {
+		for (j=1;j<=i;j++)
+			printf("%d\t",j*j);
 		printf("\n");
-		i++;
 	}
 	return 0;
 }

@@ -1,24 +1,16 @@
 #include <stdio.h>
 int main() {
-	int a=1,b;
-	while (a<=7) {
-		b=1;
-		while (b<=a) {
+	int a,b;
+	for (a=1;a<=7;a++) {
+		for (b=1;b<=a;b++)
 			printf("*");
-			b++;
-		}
 		printf("\n");
-		a++;
 	}
-	a=1;
-	while (a<=6) {
-		b=1;
-		while (b<=a) {
+
+	for (a=1;a<=6;a++) {
+		for (b=1;b<=a;b++)
 			printf("**");
-			b++;
-		}
 		printf("\n");
-		a++;
 	}
 	return 0;
 }
