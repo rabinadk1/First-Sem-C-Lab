@@ -7,10 +7,7 @@ int main () {
 }
 
 int nat(int a) {
-	int n;
 	if (a==1)
 		return 1;
-	else
-		n=a+nat(a-1);
-	return n;
+	return (a+nat(a-1));
 }
