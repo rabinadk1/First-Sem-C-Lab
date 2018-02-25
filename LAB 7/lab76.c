@@ -5,7 +5,7 @@ int main()
 	int len,j,c=1;
 	printf("Input string: ");
 	scanf("%s",a);
-	for (len=0;len<10 && a[len]=='\0';len++)
+	for (len=0;a[len]=='\0';len++)
 	for (j=0;j<(len/2);j++)
 	{
 		if (a[j]!=a[len-j-1])
